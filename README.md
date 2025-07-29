@@ -43,5 +43,4 @@ Bu proje, Türkiye'nin en üst düzey futbol ligi olan **Trendyol Süper Lig** i
 
 ---
 
-**Yapan:** [Emircan]  
 İletişim: [[GitHub](https://github.com/emircangulsu/)]

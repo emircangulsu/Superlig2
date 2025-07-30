@@ -1,46 +1,87 @@
-# Trendyol Süper Lig - Web Platformu
+# 🏆 Trendyol Süper Lig Web Platformu (Gayriresmî)
 
-**Türkiye Süper Ligi için modern, interaktif ve detaylı bir web platformu.**
-
-## 📌 Proje Hakkında
-
-Bu proje, Türkiye'nin en üst düzey futbol ligi olan **Trendyol Süper Lig** için kapsamlı ve kullanıcı dostu bir web sitesi oluşturmayı hedefler.
-
-## 🎯 Amaç
-
-- Türkiye futbolunu dijitalde daha iyi temsil eden bir platform geliştirmek  
-- Kullanıcıya maçlar, istatistikler, takımlar ve oyuncular hakkında gerçek zamanlı ve detaylı bilgi sunmak  
-- Kulüpler, fikstür, puan durumu, gol krallığı gibi temel bilgilerle birlikte gelişmiş veri sunumu (heatmap, xG, oyuncu karşılaştırmaları, vs.)
-
-## 🧩 Özellikler
-
-### Genel Özellikler
-- ⚽ Güncel Süper Lig puan durumu
-- 📅 Haftalık maç fikstürü ve sonuçlar
-- 👕 Takım sayfaları (logo, kadro, teknik ekip, transferler vs.)
-- 🧍 Oyuncu profilleri (istatistikler, geçmiş sezonlar, pozisyon, forma geçmişi)
-- 📊 Gelişmiş istatistikler (xG, pas isabeti, dribbling, savunma verileri)
-- 🏟️ Stadyum detayları
-- 📰 Güncel haberler ve duyurular (manuel veya API tabanlı)
-
-### Teknik Özellikler
-- ✅ **Responsive tasarım**: Mobil, tablet ve masaüstü uyumlu
-- 🌐 Çoklu dil desteği (Türkçe & İngilizce)
-- 🚀 Performans optimizasyonu (Lazy loading, SSR/CSR dengesi)
-- 🔎 Arama motoru optimizasyonu (SEO)
-- 🔒 Güvenlik katmanları (input validation, basic auth, API rate limit)
-
-## 🛠️ Kullanılan Teknolojiler
-
-| Teknoloji | Açıklama |
-|----------|----------|
-| React / Next.js | Arayüz ve sayfa yönetimi |
-| TypeScript | Tür güvenliği |
-| Tailwind CSS | Hızlı ve özelleştirilebilir stil yapısı |
-| Node.js / Express | Backend API (isteğe bağlı) |
-| PostgreSQL / MongoDB | Veri tabanı çözümleri |
-| Chart.js / D3.js | Grafik ve veri görselleştirme |
+> ⚠️ **Uyarı:** Bu proje, Trendyol Süper Lig’in resmi web sitesi değildir. Türkiye Futbol Federasyonu (TFF), Süper Lig ya da herhangi bir kulüp ile doğrudan veya dolaylı hiçbir bağlantısı bulunmamaktadır. Bu proje tamamen bağımsız, açık kaynaklı bir yazılım geliştirme ve portföy çalışmasıdır.
 
 ---
 
-İletişim: [[GitHub](https://github.com/emircangulsu/)]
+## 📌 Proje Hakkında
+
+Bu proje, Türkiye'nin en üst düzey futbol ligi olan **Trendyol Süper Lig** için kapsamlı, modern ve kullanıcı odaklı bir web platformu geliştirme amacı taşımaktadır.
+
+Günümüzde Süper Lig’e özel, güncel ve kullanıcı deneyimi güçlü bir **resmî web platformu bulunmamaktadır**. Bu proje, bu boşluğu doldurmayı hedefleyen bağımsız bir girişimdir. Futbolseverlerin takımları, oyuncuları, maçları ve istatistikleri kolayca takip edebileceği bir dijital futbol merkezi sunmayı amaçlamaktadır.
+
+---
+
+## 🎯 Temel Özellikler
+
+### 📅 Fikstür ve Maç Takvimi
+- Haftalık ve aylık maç programı
+- Maç saatleri, stat bilgisi ve skorlar
+- Geçmiş ve yaklaşan maçlara filtreleme
+
+### 📊 Puan Durumu
+- Dinamik puan tablosu
+- İç saha, dış saha ve genel performans
+- Gol averajı, galibiyet sayısı, form durumu
+
+### 🧑‍🤝‍🧑 Takım Sayfaları
+- Süper Lig takımlarına özel sayfalar
+- Takım logoları, renkleri, stadyum bilgileri
+- Teknik direktör ve kadro yapısı
+
+### 🧍 Oyuncu Profilleri
+- Detaylı oyuncu bilgileri (isim, yaş, uyruk, pozisyon)
+- Sezonluk performans verileri (goller, asistler, kartlar)
+- Oyuncular arası filtreleme ve karşılaştırma
+
+### 📈 İstatistik Modülü
+- Gol krallığı listesi
+- En çok asist yapan oyuncular
+- En çok kart gören oyuncular
+- Takım bazlı istatistik kıyaslamaları
+
+### 📰 Haberler (Opsiyonel)
+- Süper Lig’e dair güncel futbol haberleri
+- Transfer gelişmeleri ve duyurular
+- Otomatik ya da manuel içerik yönetimi
+
+### 📱 Mobil Uyumlu Tasarım
+- Responsive tasarım (mobil, tablet, masaüstü)
+- Kullanıcı dostu navigasyon
+- Karanlık mod (opsiyonel)
+
+---
+
+## 🛠️ Kullanılan Teknolojiler
+
+| Katman       | Teknoloji             |
+|--------------|------------------------|
+| **Frontend** | React.js / Next.js     |
+| **Backend**  | Node.js + Express *(opsiyonel)* |
+| **Veri**     | JSON, REST API, Firebase *(isteğe bağlı)* |
+| **Stil**     | Tailwind CSS / SCSS   |
+| **Barındırma**| GitHub Pages / Vercel / Netlify |
+
+---
+
+### 🔮 Gelecek Planları (Roadmap)
+ - Canlı skor entegrasyonu
+ - Kullanıcı oturumu ve favori takımlar
+ - Çoklu dil desteği (TR / EN)
+ - API ile veri güncelleme sistemi
+
+---
+
+### ❗ Önemli Bilgilendirme
+ - Bu web sitesi resmi bir Süper Lig sitesi değildir.
+ - Veriler manuel olarak toplanmakta veya kamuya açık API'lerden alınmaktadır.
+ - Proje, futbol kültürüne katkı sağlamak ve yazılım geliştirme becerilerini sergilemek amacıyla oluşturulmuştur.
+ - Kullanılan logolar, takım bilgileri ve görseller sadece örnekleme amaçlıdır. Telif hakkı içerebilir, dikkatli kullanım önerilir.
+
+---
+
+### 👤 Geliştirici
+ - İsim: Emircan
+ - GitHub: [https://github.com/emircangulsu](https://github.com/emircangulsu/)
+ - İletişim: gulsuemircan@gmail.com
+ - LinkedIn: https://linkedin.com/in/emircangulsu
